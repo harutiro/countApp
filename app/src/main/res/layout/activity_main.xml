@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="+1"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintBottom_toTopOf="@+id/karaage_image_view"
         app:layout_constraintEnd_toStartOf="@+id/pet_puls_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toTopOf="@+id/karaage_puls_button" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/karaage_image_view"
         android:layout_width="75dp"
         android:layout_height="75dp"
         app:layout_constraintBottom_toTopOf="@+id/karaage_min_button"
@@ -47,23 +47,23 @@
         app:srcCompat="@drawable/karaage" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/pet_image_view"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/karaage_image_view"
         app:layout_constraintEnd_toEndOf="@+id/pet_puls_button"
         app:layout_constraintStart_toStartOf="@+id/pet_puls_button"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/karaage_image_view"
         app:srcCompat="@drawable/pet" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/potato_image_view"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/karaage_image_view"
         app:layout_constraintEnd_toEndOf="@+id/potato_puls_button"
         app:layout_constraintStart_toStartOf="@+id/potato_puls_button"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/karaage_image_view"
         app:srcCompat="@drawable/poteto" />
 
     <Button
@@ -72,9 +72,9 @@
         android:layout_height="wrap_content"
         android:text="-1"
         app:layout_constraintBottom_toTopOf="@+id/karaage_text"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintEnd_toEndOf="@+id/karaage_image_view"
+        app:layout_constraintStart_toStartOf="@+id/karaage_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/karaage_image_view" />
 
     <Button
         android:id="@+id/pet_min_button"
@@ -92,8 +92,8 @@
         android:layout_height="wrap_content"
         android:text="-1"
         app:layout_constraintBottom_toBottomOf="@+id/karaage_min_button"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/potato_image_view"
+        app:layout_constraintStart_toStartOf="@+id/potato_image_view"
         app:layout_constraintTop_toTopOf="@+id/karaage_min_button" />
 
     <TextView
